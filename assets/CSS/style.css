@@ -1,0 +1,73 @@
+body {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+}
+
+.container:hover {
+    transition: box-shadow 0.3s ease; 
+	box-shadow: 0 0 10px rgb(64, 0, 255), 0 0 20px rgb(255, 0, 230), 0 0 30px rgb(187, 0, 255);
+
+}
+
+.title {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    resize: none;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.word-count,z
+.char-count {
+    color: #fff;
+    font-size: 14px;
+}
+
+#wordCount,
+#charCount {
+    font-weight: bold;
+}
+
+.neon {
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+    animation: neon-animation 1s ease-in-out infinite alternate;
+}
+
+@keyframes neon-animation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
