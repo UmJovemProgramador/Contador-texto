@@ -13,13 +13,7 @@ body {
     padding: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     text-align: center;
-    
-}
-
-.container:hover {
-    transition: box-shadow 0.3s ease; 
-	box-shadow: 0 0 10px rgb(64, 0, 255), 0 0 20px rgb(255, 0, 230), 0 0 30px rgb(187, 0, 255);
-
+    color: rgb(255, 255, 255);
 }
 
 .title {
@@ -46,7 +40,7 @@ textarea {
     margin-top: 10px;
 }
 
-.word-count,z
+.word-count,
 .char-count {
     color: #fff;
     font-size: 14px;
