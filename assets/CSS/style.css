@@ -17,7 +17,8 @@ body {
 }
 
 .container:hover {
-    box-shadow: white;
+    transition: box-shadow 0.3s ease; 
+	box-shadow: 0 0 10px rgb(64, 0, 255), 0 0 20px rgb(255, 0, 230), 0 0 30px rgb(187, 0, 255);
     
 }
 
