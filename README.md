@@ -1,1 +1,1 @@
-<img src="IA.webp" alt="Texto alternativo">
+<img src="Contador.webp" alt="Texto alternativo">
